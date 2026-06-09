@@ -6,6 +6,4 @@ const [a, b, c, d] = input[0].split(' ').map(Number);
 const start = a * 60 + b;
 const end = c * 60 + d;
 
-
-
 console.log(end - start);
